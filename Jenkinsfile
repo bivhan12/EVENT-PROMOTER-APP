@@ -27,6 +27,7 @@ pipeline {
     post {
         always {
             // Clean up or post-processing steps
+            echo 'This is a post-processing step'
         }
     }
 }
